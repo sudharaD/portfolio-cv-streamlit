@@ -1,0 +1,14 @@
+git init
+git git add --all
+git commit
+
+git remote add origin https://github.com/sudharaD/portfolio-cv-streamlit.git
+git checkout -b main
+git push -u origin main
+
+
+
+branch created in git and bring it back to local
+git fetch --all
+git checkout new-class
+git branch
