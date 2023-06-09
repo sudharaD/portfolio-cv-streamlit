@@ -19,4 +19,4 @@
 
 ### Contact
 
-**If you have any questions or suggestions, please feel free to contact me at [sudharad7@gmail.com].**
+**If you have any questions or suggestions, please feel free to contact me at [sudharadabeythunga@gmail.com].**
