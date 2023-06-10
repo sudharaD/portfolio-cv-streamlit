@@ -76,6 +76,16 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
+# --- Experience and Qualifications ---
+st.write("#")
+st.subheader("Experience & Qualifications")
+st.write(
+    """
+- ✅ Arimac Lanka (Pvt) Ltd | 06 Months | Quality Assuarance Engineer Intern
+- ✅ Virtusa (Pvt) Ltd | 08 Months - Quality Assuarance Engineer Intern
+    """
+)
+
 
 
 
