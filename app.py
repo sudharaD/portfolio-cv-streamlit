@@ -38,10 +38,10 @@ SOCIAL_MEDIA = {
 }
 
 PROJECTS = {
-    "✅ Project 1",
-    "✅ Project 2",
-    "✅ Project 3",
-    "✅ Project 4",
+    "✅ Project 1": "https://github.com/sudharaD",
+    "✅ Project 2": "https://github.com/sudharaD",
+    "✅ Project 3": "https://github.com/sudharaD",
+    "✅ Project 4": "https://github.com/sudharaD",
 }
 
 
@@ -112,7 +112,7 @@ st.write("2019 - 2022")
 st.write("Current GPA - 3.32 (Up to 4th Semester)")
 
 st.write("#")
-st.write("🏫", "**GCE Advanced Level**")
+st.write("📚", "**GCE Advanced Level**")
 st.write("2017")
 st.write(
     """
@@ -121,6 +121,13 @@ st.write(
 - ➔ Physics - C
     """
 )
+
+# --- Projects & Accomplishments ---
+st.write("#")
+st.subheader("Projects & Accomplishments")
+st.write("---")
+for project, link in PROJECTS.items():
+    st.write(f"[{project}]({link})")
 
 
 
