@@ -21,7 +21,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 
 css_file = current_dir/"styles"/"main.css"
 resume_file = current_dir/"assets"/"CV.pdf"
-profile_pic = current_dir/"assets"/"profile-pic.png"
+profile_pic = current_dir/"assets"/"profile-pic-3.png"
 
 
 # --- General Settings - Part 2 ---
@@ -34,7 +34,7 @@ EMAIL = "sudharad7@gmail.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/sudharad/",
     "GitHub": "https://github.com/sudharaD",
-    "Portfolio": "Still developing",
+    "Portfolio": "http://localhost:8501/",
 }
 
 PROJECTS = {
@@ -68,3 +68,22 @@ with col2:
         mime="application/octet-stream",
     )
     st.write(":mailbox:", EMAIL)
+
+
+# --- Social Links ---
+st.write("#")
+cols = st.columns(len(SOCIAL_MEDIA))
+for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+    cols[index].write(f"[{platform}]({link})")
+
+
+
+
+
+
+
+
+
+
+
+
