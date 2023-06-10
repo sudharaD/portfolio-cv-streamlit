@@ -20,7 +20,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 
 
 css_file = current_dir/"styles"/"main.css"
-resume_file = current_dir/"assets"/"CV.pdf"
+resume_file = current_dir/"assets"/"A_Sudhara_Dhananjaya - QA_Engineer.pdf"
 profile_pic = current_dir/"assets"/"profile-pic-3.png"
 
 
@@ -83,6 +83,18 @@ st.write(
     """
 - ✅ Arimac Lanka (Pvt) Ltd | 06 Months | Quality Assuarance Engineer Intern
 - ✅ Virtusa (Pvt) Ltd | 08 Months - Quality Assuarance Engineer Intern
+    """
+)
+
+# --- Skills ---
+st.write("#")
+st.subheader("Hard Skills")
+st.write(
+    """
+- ✅ Programming: Python (Scikit-learn, Pandas), SQL, VBA
+- ✅ Data Visulization: PowerBi, MS Excel, Plotly
+- ✅ Modeling: Logistic regression, linear regression, decition trees
+- ✅ Databases: Postgres, MongoDB, MySQL
     """
 )
 
