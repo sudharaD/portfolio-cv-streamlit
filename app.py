@@ -98,6 +98,29 @@ st.write(
     """
 )
 
+# --- Academic Background ---
+st.write("#")
+st.subheader("Academic Background")
+st.write("---")
+
+st.write("🎓", "**BSc (Hons) Computing | Wrexham Glyndwr University - UK**")
+st.write("2021 - 2022")
+
+st.write("#")
+st.write("🏫", "**NDT in Information Technology | Institute of Technology, University of Moratuwa**")
+st.write("2019 - 2022")
+st.write("Current GPA - 3.32 (Up to 4th Semester)")
+
+st.write("#")
+st.write("🏫", "**GCE Advanced Level**")
+st.write("2017")
+st.write(
+    """
+- ➔ Combined Mathematics - B
+- ➔ Chemistry - C
+- ➔ Physics - C
+    """
+)
 
 
 
