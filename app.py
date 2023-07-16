@@ -38,11 +38,22 @@ SOCIAL_MEDIA = {
 }
 
 PROJECTS = {
-    "✅ Project 1": "https://github.com/sudharaD",
-    "✅ Project 2": "https://github.com/sudharaD",
-    "✅ Project 3": "https://github.com/sudharaD",
-    "✅ Project 4": "https://github.com/sudharaD",
+    "✅ Skin Infection Detection Assistant": "https://github.com/sudharaD",
+    "✅ Movie Recommendation System": "https://github.com/sudharaD",
+    "✅ Handwritten Digit Recognition-MNIST": "https://github.com/sudharaD",
+    "✅ House Price Prediction": "https://github.com/sudharaD",
+    "✅ Travel Mobile Application and Admin Dashboard": "https://github.com/sudharaD",
+    "✅ Fitness Mobile Application": "https://github.com/sudharaD",
 }
+
+PROJECT_DES = [
+    "Deep learning and Image processing-based system to detect skin diseases by analyzing images (CNN / Image Processing / Python / Open CV)",
+    "A machine learning-based system that suggests similar movies based on user input (Python / NumPy / Pandas / sklearn)",
+    "System that can accurately recognize and classify handwritten digits (Python / NumPy / Pandas / sklearn)",
+    "A machine learning-based system that predicts house prices based on various features and attributes (Python / NumPy / Pandas / sklearn / Matplotlib)",
+    "A comprehensive travel solution that includes a mobile application for users and an admin dashboard for managing travel-related functionalities. (Flutter / React / Firebase)",
+    "A comprehensive mobile application designed to help users track and manage their fitness activities. (Java)"
+]
 
 
 # --- LOAD CSS, PDF & PROFILE PICTURE ---
@@ -76,28 +87,6 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-# --- Experience and Qualifications ---
-st.write("#")
-st.subheader("Experience & Qualifications")
-st.write(
-    """
-- ✅ Arimac Lanka (Pvt) Ltd | 06 Months | Quality Assuarance Engineer Intern
-- ✅ Virtusa (Pvt) Ltd | 08 Months - Quality Assuarance Engineer Intern
-    """
-)
-
-# --- Skills ---
-st.write("#")
-st.subheader("Hard Skills")
-st.write(
-    """
-- ✅ Programming: Python (Scikit-learn, Pandas), SQL, VBA
-- ✅ Data Visulization: PowerBi, MS Excel, Plotly
-- ✅ Modeling: Logistic regression, linear regression, decition trees
-- ✅ Databases: Postgres, MongoDB, MySQL
-    """
-)
-
 # --- Academic Background ---
 st.write("#")
 st.subheader("Academic Background")
@@ -122,15 +111,81 @@ st.write(
     """
 )
 
+# --- Skills ---
+st.write("#")
+st.subheader("Skills")
+st.write("---")
+st.write(
+    """
+- ✅ Programming Languages | Python
+- ✅ Data Analysis and Visualization | Pandas, NumPy, Matplotlib, Seaborn
+- ✅ Machine Learning | Scikit-learn, TensorFlow, Keras, PyTorch
+- ✅ Big Data Tools | PySpark
+- ✅ Database Technologies | Relational Databases (MySQL), NoSQL Databases (MongoDB)
+- ✅ Deep Learning | Neural Networks, CNN
+- ✅ Data Science Methods/Algorithms/Process | Supervised Learning, Unsupervised Learning, Time Series Analysis, Linear Regression, Decision Trees, Random Forest, Clustering, Neural Networks, Problem Formulation, Data Collection, Feature Selection, Model Training, Model Evaluation"
+- ✅ Web Application Development: Streamlit
+- ✅ Other | Version Control(Git, GitHub), Cloud Platforms(Microsoft Azure)
+- ✅ Soft Skills | Self-Directed Learning, Team Player
+- ✅ Languages | English, Sinhala 
+    """
+)
+
 # --- Projects & Accomplishments ---
 st.write("#")
 st.subheader("Projects & Accomplishments")
 st.write("---")
+project_des_count = 0
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+    st.write(PROJECT_DES[project_des_count])
+    project_des_count += 1
 
 
+# --- Experience and Qualifications ---
+st.write("#")
+st.subheader("Experience & Qualifications")
+st.write("---")
+st.markdown("###### ✅ Virtusa (Pvt) Ltd| Quality Assurance Engineer Internship (08/2021 – 04/2022)")
+st.write("Test Design, Manual Testing – British Telecommunications Project")
+st.markdown("###### ✅ Arimac Lanka (Pvt) Ltd| Quality Assurance Engineer Internship (08/2022 – 02/2023)")
+st.write("Performance Testing, Mobile Testing – People’s Bank Project, Sampath Bank Project, Rocell Bathware.lk, Sri Lankan Airline Project, SLT Mobitel Project")
 
+# --- Coursework ---
+st.write("#")
+st.subheader("Coursework")
+st.write("---")
+st.write(
+    """
+- ✅ Data Science with Python | University of Colombo School of Computing
+- ✅ Programming in Python - Python Programming | University of Moratuwa
+- ✅ 100 Days of Code: The Complete Python Pro Bootcamp | Udemy
+- ✅ Introduction to Data Science | SkillUP / simplilearn
+- ✅ Introduction to Artificial Intelligence | SkillUP / simplilearn
+- ✅ CI/CD for Beginners | SkillUP / simplilearn
+- ✅ Python Libraries for Data Science | SkillUP / simplilearn
+- ✅ Git and GitHub Crash Course | Udemy
+- ✅ ISTQB - Foundation Level Certified Tester Examination (FL-CT) | ISTQB®
+- ✅ HTML5 and CSS Fundamentals | edX
+- ✅ Learn MySQL - For Beginners | Udemy
+- ✅ Learn JavaScript - For Beginners |Udemy
+- ✅ Teamwork & Collaboration | Rochester Institute of Technology | edX
+- ✅ Critical Thinking & Problem Solving | Rochester Institute of Technology | edX
+- ✅ Business Communication | Rochester Institute of Technology | edX
+    """
+)
+
+# --- Other ---
+st.write("#")
+st.subheader("Other")
+st.write("---")
+st.write(
+    """
+- ✅ Microsoft Build: Azure AI Challenge 2023
+- ✅ Hacktoberfest challenge - 2022
+
+    """
+)
 
 
 
