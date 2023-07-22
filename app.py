@@ -38,11 +38,11 @@ SOCIAL_MEDIA = {
 }
 
 PROJECTS = {
-    "✅ Skin Infection Detection Assistant": "https://github.com/sudharaD",
-    "✅ Movie Recommendation System": "https://github.com/sudharaD",
-    "✅ Handwritten Digit Recognition-MNIST": "https://github.com/sudharaD",
-    "✅ House Price Prediction": "https://github.com/sudharaD",
-    "✅ Travel Mobile Application and Admin Dashboard": "https://github.com/sudharaD",
+    "✅ Skin Infection Detection Assistant": "https://github.com/sudharaD/Skin-Infection-Detection-Deel_Learning",
+    "✅ Movie Recommendation System": "https://github.com/sudharaD/Movie_Recommendation_System-UCSC",
+    "✅ Handwritten Digit Recognition-MNIST": "https://github.com/sudharaD/Handwritten_Digit_Recognition-MNIST",
+    "✅ House Price Prediction": "https://github.com/sudharaD/House_Price_Prediction_ML",
+    "✅ Travel Mobile Application and Admin Dashboard": "https://github.com/sudharaD/TravelApp-main",
     "✅ Fitness Mobile Application": "https://github.com/sudharaD",
 }
 
